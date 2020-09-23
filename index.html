@@ -17,41 +17,140 @@
   <body>
     <header>
       <div class="container">
-        <div class="logo">
-          <a href="#">DE</a>
+        <div id="logo">
+          <a href="#home"><span>de</span>👨🏾‍💻</a>
         </div>
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="about">About</a></li>
-            <li><a href="projects">Projects</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main>
-      <div class="container">
-        <section id="primary_display">
-          <h1>dorian: web developer</h1>
-        </section>
-        <section id="about">
-          <h2 class="section_header">Who or what is dorian?</h2>
-          <p>Hello,</p>
-          <p>
-            I'm doring, a pharmacist, father, husband, and aspiring web-devloper. This is my humble
-            portfolio page that I am building from the ground up as I master the three core
-            technologies at the heart of web-development:
-            <abbr title="Hyper Text Markup Language">HTML</abbr>
-            <abbr title="Cascading Style Sheets">CSS</abbr> and Javascript.
-          </p>
-          <p>
-            And yes, I misspelled my own name, it's one of the many quirky surprises I can offer a
-            potential employer (more importantly it is a byproduct of years of over-reliance on
-            auto-correct, did I mention I was detail oriented?)
-          </p>
-        </section>
-      </div>
+      <section id="home">
+        <div class="container">
+          <h2>Dorian</h2>
+        </div>
+      </section>
+      <section id="about">
+        <div class="container">
+          <h2>About</h2>
+          <div id="about_content">
+            <div id="skills_panel">
+              <div class="skills">
+                <label for="css"><img src="assets/css.png" alt="CSS5 shield logo" /></label>
+                <div id="css"></div>
+              </div>
+              <div class="skills">
+                <label for="html"><img src="assets/html.png" alt="HTML5 shield logo" /></label>
+                <div id="html"></div>
+              </div>
+              <div class="skills">
+                <label for="javascript"
+                  ><img src="assets/javascript.png" alt="JS Round logo"
+                /></label>
+                <div id="javascript"></div>
+              </div>
+              <div class="skills">
+                <label for="python"><img src="assets/python.png" alt="Python logo" /></label>
+                <div id="python"></div>
+              </div>
+              <div class="skills">
+                <label for="sql"><img src="assets/sql.png" alt="SQL database logo" /></label>
+                <div id="sql"></div>
+              </div>
+            </div>
+            <div id="about_me">
+              <p>
+                Hello world, I'm Dorian, and I am an aspiring web developer!. I am a husband, a
+                father, and hold a doctorate degree in pharmacology (which is a round about way of
+                saying I'm a pharmacist). I currently work as an inpatient pharmacist in Maryland,
+                but ultimately I am striving to become a web developer.
+              </p>
+              <p>
+                I earned my PharmD while juggling the responsibilities of raising children and
+                maintaining a household. And now with that goal accomplished, I've begun teaching
+                myself coding in my free time. To the left you can see my current progress towards
+                that goal. And hopefully this website also speaks to what I've learned, an evolving
+                measure of progress that directly relfects my skills and capabilities.
+              </p>
+              <p>
+                Ultimately I plan to become a full-time web-developer. My true passion is coding,
+                and I hope to one day to be paid for doing what I love. Cheers!
+              </p>
+            </div>
+            <p></p>
+          </div>
+        </div>
+      </section>
+      <section id="works">
+        <div class="container">
+          <h2>Works</h2>
+          <div id="projects">
+            <div class="project_wrapper">
+              <div class="project"></div>
+            </div>
+            <div class="project_wrapper">
+              <div class="project"></div>
+            </div>
+            <div class="project_wrapper">
+              <div class="project"></div>
+            </div>
+            <div class="project_wrapper">
+              <div class="project"></div>
+            </div>
+            <div class="project_wrapper">
+              <div class="project"></div>
+            </div>
+            <div class="project_wrapper">
+              <div class="project"></div>
+            </div>
+            <div class="project_wrapper">
+              <div class="project"></div>
+            </div>
+            <div class="project_wrapper">
+              <div class="project"></div>
+            </div>
+            <div class="project_wrapper">
+              <div class="project"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <h2>Contact Me</h2>
+          <form action="#">
+            <div class="form_entry">
+              <label for="visitor_name">Name</label>
+              <input type="text" id="visitor_name" name="name" />
+            </div>
+            <div class="form_entry">
+              <label for="visitor_email">Email</label>
+              <input type="email" id="visitor_email" name="email" />
+            </div>
+            <div class="form_entry">
+              <label for="visitor_message">Message</label>
+              <textarea id="visitor_message"></textarea>
+            </div>
+          </form>
+        </div>
+        <footer>
+          <a href="https://twitter.com/PharmDTechie" target="_blank"
+            ><img src="assets/twitter.png" alt="white twitter logo"
+          /></a>
+          <a href="https://github.com/buddafucofibas" target="_blank"
+            ><img src="assets/github.png" alt="white github logo, which is an octopus I think??"
+          /></a>
+          <a href="mailto:de.pharmd2018@gmail.com"
+            ><img src="assets/email.png" alt="white envelope"
+          /></a>
+        </footer>
+      </section>
     </main>
   </body>
 </html>
