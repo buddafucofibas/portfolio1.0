@@ -216,6 +216,7 @@ ul {
   background-color: gray;
   border-radius: 10px;
   position: relative;
+  margin-bottom: 20px;
 }
 .skills div:after {
   content: '';
@@ -230,7 +231,7 @@ ul {
 }
 
 .skills img {
-  width: 100px;
+  width: 75px;
 }
 
 .container {
@@ -240,7 +241,7 @@ ul {
 
 header .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 0 1rem;
 }
@@ -359,3 +360,54 @@ footer p {
   font-size: 1.2rem;
   color: #f7f7f7;
 }
+
+/* img[src='assets/js.png'] {
+  transform: scale(0.8);
+} */
+
+/*****************************************************************/
+/********************* Header and navbar *************************/
+/*****************************************************************/
+
+/********************* Burger *************************/
+
+.burger-wrapper {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  display: none;
+}
+
+.hamburger {
+  background: #f7f7f7;
+  position: relative;
+  height: 2px;
+  width: 30px;
+}
+
+.hamburger:before,
+.hamburger:after {
+  content: '';
+  position: absolute;
+}
+
+.hamburger:before {
+  top: 10px;
+}
+
+.hamburger:after {
+  top: -10px;
+}
+
+.hamburger,
+.hamburger:before,
+.hamburger:after {
+  border-radius: 5px;
+  height: 2px;
+  width: 30px;
+  background: #f7f7f7;
+  transition: all 500ms ease-in-out;
+}
+
+/********************* Nav Menu *************************/

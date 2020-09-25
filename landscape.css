@@ -1,0 +1,133 @@
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+}
+
+#home,
+#about,
+#works,
+#contact {
+  display: none;
+}
+
+/*****************************************************************/
+/********************* Header and navbar *************************/
+/*****************************************************************/
+
+/********************* Burger *************************/
+
+/********************* Header *************************/
+
+/********************* logo *************************/
+
+/*****************************************************************/
+/***************************** Home ******************************/
+/*****************************************************************/
+#home {
+  display: block;
+  height: 100vh;
+  background-image: url('assets/bkgrnd.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+/******************************************************************/
+/***************************** About ******************************/
+/******************************************************************/
+
+#about {
+  display: block;
+  height: auto;
+  background-color: #f7f7f7;
+  color: #161925;
+}
+
+#about h2 {
+  display: none;
+}
+
+#about_content {
+  flex-direction: column;
+  padding: 0;
+  padding-top: 1rem;
+}
+
+#about_me {
+  order: 0;
+  padding: 0 1rem;
+  font-size: 1rem;
+  position: relative;
+}
+
+#about_me:after {
+  content: '';
+  height: 1px;
+  width: 100%;
+  background: rgba(22, 25, 37, 0.3);
+  margin-top: 20px;
+}
+
+#about_me p {
+  margin: 10px 0 10px 0;
+}
+
+#skills_panel {
+  padding: 1rem;
+  order: 1;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  /* background-color: rgba(193, 41, 46, 1); */
+}
+.skills > div {
+  display: none;
+}
+#skills_panel img {
+  width: 50px;
+}
+/******************************************************************/
+/***************************** Work *******************************/
+/******************************************************************/
+
+#works {
+  display: block;
+  height: auto;
+}
+/******************************************************************/
+/***************************** Contact ****************************/
+/******************************************************************/
+
+#contact {
+  display: block;
+  padding-bottom: 0;
+  height: auto;
+}
+
+#contact button {
+  margin-top: 20px;
+}
+#contact .container {
+  padding-top: 2.5rem;
+}
+
+#contact h2 {
+  text-align: center;
+  position: static;
+}
+
+#contact form {
+  margin-top: 10px;
+  padding: 2rem;
+}
+
+#visitor_name,
+#visitor_email,
+#visitor_message {
+  width: 100%;
+}
+
+footer {
+  position: static;
+}
