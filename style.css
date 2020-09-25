@@ -182,31 +182,31 @@ ul {
 }
 
 .project_wrapper:nth-of-type(1) .project {
-  background: no-repeat center/cover url('https://source.unsplash.com/800x600/?video%20games');
+  background: no-repeat center/cover url('https://source.unsplash.com/400x300/?video%20games');
 }
 .project_wrapper:nth-of-type(2) .project {
-  background: no-repeat center/cover url('https://source.unsplash.com/800x600/?finance');
+  background: no-repeat center/cover url('https://source.unsplash.com/400x300/?finance');
 }
 .project_wrapper:nth-of-type(3) .project {
-  background: no-repeat center/cover url('https://source.unsplash.com/800x600/?architecture');
+  background: no-repeat center/cover url('https://source.unsplash.com/400x300/?architecture');
 }
 .project_wrapper:nth-of-type(4) .project {
-  background: no-repeat center/cover url('https://source.unsplash.com/800x600/?pharmacy');
+  background: no-repeat center/cover url('https://source.unsplash.com/400x300/?pharmacy');
 }
 .project_wrapper:nth-of-type(5) .project {
-  background: no-repeat center/cover url('https://source.unsplash.com/800x600/?coffee');
+  background: no-repeat center/cover url('https://source.unsplash.com/400x300/?coffee');
 }
 .project_wrapper:nth-of-type(6) .project {
-  background: no-repeat center/cover url('https://source.unsplash.com/800x600/?books');
+  background: no-repeat center/cover url('https://source.unsplash.com/400x300/?books');
 }
 .project_wrapper:nth-of-type(7) .project {
-  background: no-repeat center/cover url('https://source.unsplash.com/800x600/?music');
+  background: no-repeat center/cover url('https://source.unsplash.com/400x300/?music');
 }
 .project_wrapper:nth-of-type(8) .project {
-  background: no-repeat center/cover url('https://source.unsplash.com/800x600/?web%20development');
+  background: no-repeat center/cover url('https://source.unsplash.com/400x300/?web%20development');
 }
 .project_wrapper:nth-of-type(9) .project {
-  background: no-repeat center/cover url('https://source.unsplash.com/800x600/?tech');
+  background: no-repeat center/cover url('https://source.unsplash.com/400x300/?tech');
 }
 
 .skills div {
